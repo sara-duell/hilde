@@ -20,3 +20,4 @@ $( document ).ready(function() {
        audio.style.display = 'block'
    }
 }, 1000)
+});
