@@ -25,6 +25,3 @@ function theHoursOST(){
   })
   // console.log(`audio/hilde.mp3#t=00:${m}:${s}`);
 }
-
-
-});
