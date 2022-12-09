@@ -11,14 +11,21 @@ $( document ).ready(function() {
        hours = d.getHours(),
        min = d.getMinutes(),
        sec = d.getSeconds();
-   if (hours === 12 && min === 40 && sec === 01) {
-       var audio = document.getElementsByTagName('audio')[0]
+   if (hours === 12 && min === 45 && sec === 01) {
+       var Hilde = document.getElementsByTagName('audio')[0]
        //add the time in seconds
-       audio.currentTime = 0;
-       audio.play()
-       audio.style.display = 'block'
+       Hilde.currentTime = 0;
+       Hilde.play()
+       Hilde.style.display = 'block'
    }
 }, 1000)
+    
+    // audio on mobile 
+  body.addEventListener('click', function(e){
+    Hilde.play();
+    Hilde.loop = true;
+    Hilde.autoplay = true;
+  })
 
 $("#color").click(function() {
   $("body").css({
