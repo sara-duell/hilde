@@ -12,7 +12,7 @@ $( document ).ready(function() {
        hours = d.getHours(),
        min = d.getMinutes(),
        sec = d.getSeconds();
-   if (hours === 12 && min === 32 && sec === 01) {
+   if (hours === 12 && min === 34 && sec === 01) {
        var audio = document.getElementsByTagName('audio')[0]
        //add the time in seconds
        audio.currentTime = 0;
@@ -20,4 +20,3 @@ $( document ).ready(function() {
        audio.style.display = 'block'
    }
 }, 1000)
-});
