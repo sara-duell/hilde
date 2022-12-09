@@ -1,68 +1,7 @@
-$( document ).ready(function() {
-    console.log( "the html has loaded and my script file is properly loaded into my website code" );
-
-//     var morning = "morning.gif";
-//     var afternoon = "afternoon.gif";
-//     var night = "night.gif";
-//
-//
-//     setInterval(function() {
-//    var d = new Date(),
-//        hours = d.getHours(),
-//        min = d.getMinutes(),
-//        sec = d.getSeconds();
-//    if (hours === 16 && min === 15 && sec === 01) {
-//        var audio = document.getElementsByTagName('audio')[0]
-//        //add the time in seconds
-//        audio.currentTime = 0;
-//        audio.play()
-//        audio.style.display = 'block'
-//    }
-// }, 1000)
 
 $( document ).ready(function() {
     console.log( "the html has loaded and my script file is properly loaded into my website code" );
-
-//     var morning = "morning.gif";
-//     var afternoon = "afternoon.gif";
-//     var night = "night.gif";
-//
-//
-//     setInterval(function() {
-//    var d = new Date(),
-//        hours = d.getHours(),
-//        min = d.getMinutes(),
-//        sec = d.getSeconds();
-//    if (hours === 16 && min === 15 && sec === 01) {
-//        var audio = document.getElementsByTagName('audio')[0]
-//        //add the time in seconds
-//        audio.currentTime = 0;
-//        audio.play()
-//        audio.style.display = 'block'
-//    }
-// }, 1000)
-$( document ).ready(function() {
-    console.log( "the html has loaded and my script file is properly loaded into my website code" );
-
-//     var morning = "morning.gif";
-//     var afternoon = "afternoon.gif";
-//     var night = "night.gif";
-//
-//
-//     setInterval(function() {
-//    var d = new Date(),
-//        hours = d.getHours(),
-//        min = d.getMinutes(),
-//        sec = d.getSeconds();
-//    if (hours === 16 && min === 15 && sec === 01) {
-//        var audio = document.getElementsByTagName('audio')[0]
-//        //add the time in seconds
-//        audio.currentTime = 0;
-//        audio.play()
-//        audio.style.display = 'block'
-//    }
-// }, 1000)
-
+    
 // get hours for title, and minutes for rotation
 var s = new Date().getSeconds();
 var m = new Date().getMinutes();
