@@ -23,7 +23,7 @@ function theHoursOST(){
     theHoursOST.loop = true;
     theHoursOST.autoplay = true;
   })
-  // console.log(`audio/the-hours.mp3#t=00:${m}:${s}`);
+  // console.log(`audio/hilde.mp3#t=00:${m}:${s}`);
 }
 
 
