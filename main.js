@@ -1,7 +1,6 @@
-
 $( document ).ready(function() {
     console.log( "the html has loaded and my script file is properly loaded into my website code" );
-    
+
     var morning = "morning.gif";
     var afternoon = "afternoon.gif";
     var night = "night.gif";
@@ -20,3 +19,20 @@ $( document ).ready(function() {
        audio.style.display = 'block'
    }
 }, 1000)
+
+$("#color").click(function() {
+  $("body").css({
+    "background-color": "pink"
+  });
+});
+
+$("#text").click(function() {
+  $("p").html("I like to eat snails");
+});
+
+$("#show").click(function() {
+  $(this).attr("src", "2.png");
+});
+
+
+});
