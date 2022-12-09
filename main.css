@@ -1,0 +1,199 @@
+body,
+html {
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	position: relative;
+}
+
+body {
+	background: #333;
+	color: #000;
+    background-color:Salmon;
+	animation:myfirst 500s;
+	-webkit-animation:myfirst 500s;
+}
+
+p {
+  font-size: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::-moz-selection {
+	background-color: #ff7500;
+	color: #fff;
+}
+
+::selection {
+	background-color: #09f;
+	color: #fff;
+}
+
+:focus {
+	outline: 0;
+}
+
+customhtml > * {
+	position: relative;
+    z-index: 10;
+}
+  /*SHIFTING BACKGROUND COLORS*/
+
+
+@keyframes myfirst
+{
+0%   {background-color:Salmon;}
+1%  {background-color:DarkSalmon;}
+2%  {background-color:LightCoral;}
+3% {background:LightPink ;}
+4%   {background:PaleVioletRed ;}
+5%  {background:Pink ;}
+6%  {background:Salmon ;}
+7% {background:Thistle  ;}
+8% {background:DarkSalmon ;}
+9% {background:Pink ;}
+10% {background:Salmon ;}
+11%   {background:Salmon;}
+12%  {background:DarkSalmon;}
+13%  {background:LightCoral;}
+14% {background:LightPink ;}
+15%   {background:PaleVioletRed ;}
+16%  {background:Pink ;}
+17%  {background:Salmon ;}
+18% {background:Thistle  ;}
+19% {background:DarkSalmon ;}
+20% {background:Salmon ;}
+21%   {background-color:Salmon;}
+22%  {background-color:DarkSalmon;}
+23%  {background-color:LightCoral;}
+24% {background:LightPink ;}
+25%   {background:PaleVioletRed ;}
+26%  {background:Pink ;}
+27%  {background:Salmon ;}
+28% {background:Thistle  ;}
+29% {background:DarkSalmon ;}
+30% {background:Pink ;}
+31% {background:Salmon ;}
+32%   {background:Salmon;}
+33%  {background:DarkSalmon;}
+34%  {background:LightCoral;}
+35% {background:LightPink ;}
+36%   {background:PaleVioletRed ;}
+37%  {background:Pink ;}
+38%  {background:Salmon ;}
+39% {background:Thistle  ;}
+40% {background:DarkSalmon ;}
+41% {background:Salmon ;}
+42%   {background-color:Salmon;}
+43%  {background-color:DarkSalmon;}
+44%  {background-color:LightCoral;}
+45% {background:LightPink ;}
+46%   {background:PaleVioletRed ;}
+47%  {background:Pink ;}
+48%  {background:Salmon ;}
+49% {background:Thistle  ;}
+50% {background:DarkSalmon ;}
+51% {background:Pink ;}
+52% {background:Salmon ;}
+53%   {background:Salmon;}
+54%  {background:DarkSalmon;}
+55%  {background:LightCoral;}
+56% {background:LightPink ;}
+57%   {background:PaleVioletRed ;}
+58%  {background:Pink ;}
+59%  {background:Salmon ;}
+60% {background:Thistle  ;}
+61% {background:DarkSalmon ;}
+62% {background:Salmon ;}
+43%  {background-color:DarkSalmon;}
+44%  {background-color:LightCoral;}
+45% {background:LightPink ;}
+46%   {background:PaleVioletRed ;}
+47%  {background:Pink ;}
+48%  {background:Salmon ;}
+49% {background:Thistle  ;}
+50% {background:DarkSalmon ;}
+51% {background:Pink ;}
+52% {background:Salmon ;}
+53%   {background:Salmon;}
+54%  {background:DarkSalmon;}
+55%  {background:LightCoral;}
+56% {background:LightPink ;}
+57%   {background:PaleVioletRed ;}
+58%  {background:Pink ;}
+59%  {background:Salmon ;}
+60% {background:Thistle  ;}
+61% {background:DarkSalmon ;}
+62% {background:Salmon ;}
+63%  {background-color:DarkSalmon;}
+64%  {background-color:LightCoral;}
+65% {background:LightPink ;}
+66%   {background:PaleVioletRed ;}
+67%  {background:Pink ;}
+68%  {background:Salmon ;}
+69% {background:Thistle  ;}
+70% {background:DarkSalmon ;}
+71% {background:Pink ;}
+72% {background:Salmon ;}
+73%   {background:Salmon;}
+74%  {background:DarkSalmon;}
+75%  {background:LightCoral;}
+76% {background:LightPink ;}
+77%   {background:PaleVioletRed ;}
+78%  {background:Pink ;}
+79%  {background:Salmon ;}
+80% {background:Thistle  ;}
+81% {background:DarkSalmon ;}
+82% {background:Salmon ;}
+83%  {background-color:DarkSalmon;}
+84%  {background-color:LightCoral;}
+85% {background:LightPink ;}
+86%   {background:PaleVioletRed ;}
+87%  {background:Pink ;}
+88%  {background:Salmon ;}
+89% {background:Thistle  ;}
+90% {background:DarkSalmon ;}
+91% {background:Pink ;}
+92% {background:Salmon ;}
+93%   {background:Salmon;}
+94%  {background:DarkSalmon;}
+95%  {background:LightCoral;}
+96% {background:LightPink ;}
+97%   {background:PaleVioletRed ;}
+98%  {background:Pink ;}
+99%  {background:Thistle ;}
+100% {background:DarkSalmon ;}
+}
+
+
+/**
+ * Global
+ */
+
+
+a:active {
+	opacity: 0.7;
+}
+
+/**
+ * Backdrop
+ */
+
+#backdrop {
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	max-width: 100%;
+	z-index: 1;
+}
