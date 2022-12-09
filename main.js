@@ -9,10 +9,8 @@ var h = new Date().getHours();
 
 // audio; begins playing at the corresponding minute and second mark of the time when the website is loaded
 function theHoursOST(){
-  var s = String(new Date().getSeconds()).padStart(2, "0");
-  var m = String(new Date().getMinutes()).padStart(2, "0");
   var theHoursOST = new Audio;
-  theHoursOST.src = `https://sara-duell.github.io/hilde/audio/hilde.mp3#t=00:${m}:${s}`;
+  theHoursOST.src = `audio/hilde.mp3#t=00:${m}:${s}`;
   theHoursOST.play();
   theHoursOST.loop = true;
   theHoursOST.autoplay = true;
